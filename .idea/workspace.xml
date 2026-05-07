@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7d269ef-e98a-4912-bafb-c71e5855a8e7" name="更改" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/深度学习/第二周/Xavier.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第二周/Xavier权重初始化.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第二周/反向传播公式推导.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第二周/手写图片（公式推导）/反向传播推导/43A87047E7AC911FEEEB37B09156DE1A.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第二周/手写图片（公式推导）/反向传播推导/9D059AC25D41642244B01AB0BFBA11B1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第二周/手写图片（公式推导）/反向传播推导/E1CCF89233F18AC721E9B7E2CCD429DA.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第二周/手写图片（公式推导）/反向传播推导/d7a7dd6a68f28d91edd6a18d7ba6c985.png" afterDir="false" />
+    <list default="true" id="b7d269ef-e98a-4912-bafb-c71e5855a8e7" name="更改" comment="update">
+      <change afterPath="$PROJECT_DIR$/深度学习/第二周/手写图片（公式推导）/Xavier推导/0c9c0ff0d71725617b7e3787ed30437c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第二周/手写图片（公式推导）/Xavier推导/6da78868be7e5d0d4ac077567fc81537.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第一周/MNIST学习/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/深度学习/第一周/MNIST学习/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第一周/MNIST学习/手写MINIST.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/深度学习/第一周/MNIST学习/手写MINIST.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第一周/logs/train_log.csv" beforeDir="false" afterPath="$PROJECT_DIR$/深度学习/第一周/logs/train_log.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +24,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -65,17 +55,17 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/donk/PycharmProjects/JupyterProject1/深度学习/第二周",
+    "last_opened_file_path": "C:/Users/donk/PycharmProjects/JupyterProject1/深度学习/第二周/手写图片（公式推导）/Xavier推导",
     "settings.editor.selected.configurable": "configurable.group.python.group.settings"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第二周\手写图片（公式推导）\Xavier推导" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第二周" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第二周\手写图片（md）" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第一周\MNIST学习" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习" />
-      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第一周" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第二周\手写图片（公式推导）\反向传播推导" />
@@ -106,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777950444975</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <option name="closed" value="true" />
+      <created>1778153225592</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1778153225592</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,6 +132,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
