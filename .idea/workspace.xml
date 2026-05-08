@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7d269ef-e98a-4912-bafb-c71e5855a8e7" name="更改" comment="update">
-      <change afterPath="$PROJECT_DIR$/深度学习/第二周/手写图片（公式推导）/Xavier推导/0c9c0ff0d71725617b7e3787ed30437c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第二周/手写图片（公式推导）/Xavier推导/6da78868be7e5d0d4ac077567fc81537.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/概率论系统入门.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第二周/Xavier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第二周/numpy实现反向传播.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第二周/numpy实现神经网络函数.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第二周/numpy手写MNIST（完整）/gradient_check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第二周/numpy手写MNIST（完整）/nn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第二周/numpy手写MNIST（完整）/手写MNIST笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第二周/手写图片（公式推导）/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/深度学习/第二周/Xavier.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/深度学习/第二周/Xavier.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -49,29 +56,62 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Xavier.executor": "Run",
     "Python.infer.executor": "Run",
+    "Python.nn.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/donk/PycharmProjects/JupyterProject1/深度学习/第二周/手写图片（公式推导）/Xavier推导",
+    "last_opened_file_path": "C:/Users/donk/PycharmProjects/JupyterProject1/深度学习/第二周/numpy手写MNIST（完整）",
     "settings.editor.selected.configurable": "configurable.group.python.group.settings"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第二周\numpy手写MNIST（完整）" />
+      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1" />
+      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第二周\手写图片（公式推导）\Xavier推导" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第二周" />
-      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第二周\手写图片（md）" />
-      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第一周\MNIST学习" />
-      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第二周" />
+      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第二周\手写图片（公式推导）\反向传播推导" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第一周\MNIST学习" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第一周" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="nn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="深度学习" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/mnist_nn" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/mnist_nn/nn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.nn" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -104,7 +144,23 @@
       <option name="project" value="LOCAL" />
       <updated>1778153225592</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update">
+      <option name="closed" value="true" />
+      <created>1778154132455</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1778154132455</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update">
+      <option name="closed" value="true" />
+      <created>1778154305670</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1778154305670</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
