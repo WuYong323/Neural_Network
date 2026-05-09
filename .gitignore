@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# PyCharm / IDE 个人状态
+.idea/workspace.xml
+.idea/shelf/
+
+# 数据集与训练产物（体积大，不入库）
+MNIST数据集/
+checkpoints/
+logs/
+*.npz
+*.csv

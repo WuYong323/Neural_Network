@@ -1,8 +1,8 @@
 import numpy as np
 
 
-def initialize_parameters_xavier(layer_dims,seed=42):
-    np.random.randint(seed)
+def initialize_parameters_xavier(layer_dims,seed=2):
+    np.random.seed(seed)
 
     parameters={}
     L=len(layer_dims)
@@ -57,8 +57,14 @@ def forward(X,parameters):
     return A_final,cache
 
 
-def computer_loss():
-    pass
+def compute_loss(A2,Y,params,l2=0.0):
+    loss=cross_entropy(A2,Y)
+
+    if l2>0:
+        loss+=0.5*l2*(np.sum(params["W1"]**2)+np.sum(params["W2"]**2))
+
+    return loss
+
 
 
 def backward(Y,cache,params,l2=0.0):
@@ -102,7 +108,7 @@ def shape_check(params,X,Y):
 
 
 if __name__ == "__main__":
-    np.random.seed(42)
+    np.random.seed(2)
     N,n_features=64,784
     X=np.random.randn(N,n_features)
     y_indices=np.random.randint(0,10,N)
