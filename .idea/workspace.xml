@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7d269ef-e98a-4912-bafb-c71e5855a8e7" name="更改" comment="update">
-      <change afterPath="$PROJECT_DIR$/概率论系统入门.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第二周/Xavier.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第二周/numpy实现反向传播.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第二周/numpy实现神经网络函数.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第二周/numpy手写MNIST（完整）/gradient_check.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第二周/numpy手写MNIST（完整）/nn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第二周/numpy手写MNIST（完整）/手写MNIST笔记.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第二周/手写图片（公式推导）/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/深度学习核心公式参考手册.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第二周/PyTorch_vs_numpy.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第二周/numpy手写MNIST（无CNN）/1c71587ec9701370c84a6af3c6fbcb7f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第二周/numpy手写MNIST（无CNN）/8ccc9f4433a2ab69dd0a6e0b1197f196.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第二周/numpy手写MNIST（无CNN）/9879a277b88e10ea34ed54ad7438eae3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第二周/numpy手写MNIST（无CNN）/eval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第二周/numpy手写MNIST（无CNN）/predict_image.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第二周/Xavier.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/深度学习/第二周/Xavier.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/深度学习/第二周/numpy手写MNIST（无CNN）/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/深度学习/第二周/numpy手写MNIST（无CNN）/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/深度学习/第二周/numpy手写MNIST（无CNN）/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/深度学习/第二周/numpy手写MNIST（无CNN）/train.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +31,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -44,6 +45,9 @@
     &quot;accountId&quot;: &quot;6002bf8a-85a2-4f53-b3f0-dfb9211d4dba&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -51,30 +55,44 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="sortKey" value="BY_TIME_ASCENDING" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.Xavier.executor": "Run",
-    "Python.infer.executor": "Run",
-    "Python.nn.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/donk/PycharmProjects/JupyterProject1/深度学习/第二周/numpy手写MNIST（完整）",
-    "settings.editor.selected.configurable": "configurable.group.python.group.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Xavier.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data_loader.executor&quot;: &quot;Run&quot;,
+    &quot;Python.eval.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gradient_check.executor&quot;: &quot;Run&quot;,
+    &quot;Python.infer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.nn.executor&quot;: &quot;Run&quot;,
+    &quot;Python.predict_image.executor&quot;: &quot;Run&quot;,
+    &quot;Python.train.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/donk/PycharmProjects/JupyterProject1/深度学习/第二周&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第二周\numpy手写MNIST（完整）" />
-      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1" />
-      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习" />
-      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第二周\手写图片（公式推导）\Xavier推导" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第二周" />
+      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第二周\numpy手写MNIST（无CNN）" />
+      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习" />
+      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第二周\numpy手写MNIST（完整）\MNIST数据集" />
+      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第二周\numpy手写MNIST（完整）" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第二周" />
@@ -98,6 +116,9 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/mnist_nn/nn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -116,9 +137,12 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-b3ae9b5d7125-f0eec537fc84-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.23892.439" />
+        <option value="bundled-python-sdk-024ed6589d45-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.23567.174" />
       </set>
     </attachedChunks>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\donk\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -127,6 +151,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1777372610322</updated>
+      <workItem from="1778387975245" duration="30000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -160,8 +185,43 @@
       <option name="project" value="LOCAL" />
       <updated>1778154305670</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update">
+      <option name="closed" value="true" />
+      <created>1778249215160</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1778249215160</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update">
+      <option name="closed" value="true" />
+      <created>1778343504290</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1778343504290</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update">
+      <option name="closed" value="true" />
+      <created>1778343828734</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1778343828734</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update">
+      <option name="closed" value="true" />
+      <created>1778344624729</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1778344624729</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

@@ -69,7 +69,7 @@ def train():
 
         if test_acc>best_test_acc:
             best_test_acc=test_acc
-            np.savez(f"checkpoints/{config["tag"]}_best.npz",
+            np.savez(f"checkpoints/final_best.npz",
                      W1=params["W1"],b1=params["b1"],
                      W2=params["W2"],b2=params["b2"],
                      epoch=epoch,test_acc=test_acc
