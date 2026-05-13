@@ -1,15 +1,13 @@
 import math
-from graphviz import Digraph
-
 
 class Value:
-    def __init__(self,data,_children=(),_op='',label=''):
+    def __init__(self,data,_children=(),op='',label=''):
         self.data=data
-        self._op=_op
+        self._prev=set(_children)
+        self.op=op
+        self.label=label
         self.grad=0.0
         self._backward=lambda :None
-        self._prev=set(_children)
-        self.label=label
 
     def __repr__(self):
         if self.label:
@@ -18,7 +16,7 @@ class Value:
 
     def __add__(self, other):
         other=other if isinstance(other,Value) else Value(other)
-        out=Value(self.data+other.data,_children=(self,other),_op='+')
+        out=Value(self.data+other.data,(self,other),'+')
         def _backward():
             self.grad+=1.0*out.grad
             other.grad+=1.0*out.grad
@@ -27,7 +25,7 @@ class Value:
 
     def __mul__(self, other):
         other=other if isinstance(other,Value) else Value(other)
-        out=Value(self.data*other.data,_children=(self,other),_op='*')
+        out=Value(self.data*other.data,(self,other),'*')
         def _backward():
             self.grad+=other.data*out.grad
             other.grad+=self.data*out.grad
@@ -47,10 +45,21 @@ class Value:
         x=self.data
         out=Value(math.exp(x),(self,),'exp')
         def _backward():
-            self.grad+=out.data*out.grad
+            self.grad+=math.exp(x)*out.grad
         out._backward=_backward
         return out
 
+    def __pow__(self, power):
+        assert isinstance(power,(int,float)) ,"only supporting int/float for now"
+        x=self.data
+        out=Value(x**pow,(self,power),f'*{power}')
+        def _backward():
+            self.grad+=out.grad*power*x**(power-1)
+        out._backward=_backward
+        return out
+
+    def __truediv__(self, other):
+        return self*other**-1
 
     def __radd__(self, other):
         return self+other
@@ -59,11 +68,10 @@ class Value:
         return self*other
 
     def __neg__(self):
-        return self*-1
+        return self*(-1)
 
     def __sub__(self, other):
         return self+(-other)
-
 
     def backward(self):
         topo=[]
@@ -75,67 +83,10 @@ class Value:
                     build_topo(child)
                 topo.append(v)
         build_topo(self)
+
         self.grad=1.0
         for node in reversed(topo):
             node._backward()
-
-
-
-
-
-def trace(root):
-    nodes,edges=set(),set()
-    def build(v):
-        if v not in nodes:
-            nodes.add(v)
-            for child in v._prev:
-                edges.add((child,v))
-                build(child)
-    build(root)
-    return nodes,edges
-
-
-
-def draw_dot(root):
-    dot=Digraph(filename='png',graph_attr={'rankdir':'LR'})
-
-    nodes,edges=trace(root)
-    for n in nodes:
-        uid=str(id((n)))
-        dot.node(name=uid,
-                 label=f"{{ {n.label} | data  {n.data:.4f} | grad{n.grad  :.4f} }}",
-                 shape='record'
-                 )
-        if n._op:
-            dot.node(name=uid+n._op,label=n._op)
-            dot.edge(uid+n._op,uid)
-
-    for n1,n2 in edges:
-        dot.edge(str(id(n1)),str(id(n2))+n2._op)
-
-    return dot
-
-
-
-if __name__=="__main__":
-    a = Value(-3)
-    a.label = 'a'
-    b = Value(4)
-    b.label = 'b'
-    c = Value(15)
-    c.label = 'c'
-    f = a * b + c
-    f.label = 'f'
-    g=f.tanh()
-    g.backward()
-    draw_dot(g).view()
-
-
-
-
-
-
-
 
 
 

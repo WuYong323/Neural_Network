@@ -5,16 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7d269ef-e98a-4912-bafb-c71e5855a8e7" name="更改" comment="update">
-      <change afterPath="$PROJECT_DIR$/深度学习/深度学习核心公式参考手册.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第二周/PyTorch_vs_numpy.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第二周/numpy手写MNIST（无CNN）/1c71587ec9701370c84a6af3c6fbcb7f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第二周/numpy手写MNIST（无CNN）/8ccc9f4433a2ab69dd0a6e0b1197f196.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第二周/numpy手写MNIST（无CNN）/9879a277b88e10ea34ed54ad7438eae3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第二周/numpy手写MNIST（无CNN）/eval.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第二周/numpy手写MNIST（无CNN）/predict_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第三周/手写神经网络（完整）/W3_Day4_神经网络与训练_笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第三周/手写神经网络（完整）/engine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第三周/手写神经网络（完整）/nn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第三周/手写神经网络（完整）/train_moons.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第三周/自动微分/Value可视化.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第三周/自动微分/W3_Day1_micrograd_笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第三周/自动微分/W3_Day2_autograd_笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第三周/自动微分/value_redo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第三周/自动微分/梯度测试（对比pytorch）.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第二周/numpy手写MNIST（无CNN）/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/深度学习/第二周/numpy手写MNIST（无CNN）/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第二周/numpy手写MNIST（无CNN）/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/深度学习/第二周/numpy手写MNIST（无CNN）/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/深度学习/神经网络学习笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/深度学习/神经网络学习笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/深度学习/第三周/自动微分/value.py" beforeDir="false" afterPath="$PROJECT_DIR$/深度学习/第三周/自动微分/value.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +70,11 @@
     &quot;Python.infer.executor&quot;: &quot;Run&quot;,
     &quot;Python.nn.executor&quot;: &quot;Run&quot;,
     &quot;Python.predict_image.executor&quot;: &quot;Run&quot;,
+    &quot;Python.python value.py.executor&quot;: &quot;Run&quot;,
     &quot;Python.train.executor&quot;: &quot;Run&quot;,
+    &quot;Python.train_moons.executor&quot;: &quot;Run&quot;,
+    &quot;Python.value.executor&quot;: &quot;Run&quot;,
+    &quot;Python.梯度测试（对比pytorch）.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -76,30 +82,30 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/donk/PycharmProjects/JupyterProject1/深度学习/第二周&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/donk/PycharmProjects/JupyterProject1/深度学习/第三周/自动微分&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion.inline&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第三周\自动微分" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第二周" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第二周\numpy手写MNIST（无CNN）" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第二周\numpy手写MNIST（完整）\MNIST数据集" />
-      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第二周\numpy手写MNIST（完整）" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第三周\手写神经网络（完整）" />
+      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第三周\自动微分" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第二周" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第二周\手写图片（公式推导）\反向传播推导" />
-      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第一周\MNIST学习" />
-      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第一周" />
     </key>
   </component>
   <component name="RunManager">
@@ -128,8 +134,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="python value.py" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="深度学习" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/深度学习/第三周/自动微分" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="value.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.python value.py" />
         <item itemvalue="Python.nn" />
       </list>
     </recent_temporary>
@@ -217,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778344624729</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update">
+      <option name="closed" value="true" />
+      <created>1778485012417</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1778485012417</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
