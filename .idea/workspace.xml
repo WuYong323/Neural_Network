@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7d269ef-e98a-4912-bafb-c71e5855a8e7" name="更改" comment="update">
-      <change afterPath="$PROJECT_DIR$/深度学习/第三周/手写神经网络（完整）/W3_Day4_神经网络与训练_笔记.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第三周/手写神经网络（完整）/engine.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第三周/手写神经网络（完整）/nn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第三周/手写神经网络（完整）/train_moons.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第三周/自动微分/Value可视化.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第三周/自动微分/W3_Day1_micrograd_笔记.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第三周/自动微分/W3_Day2_autograd_笔记.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第三周/自动微分/value_redo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第三周/自动微分/梯度测试（对比pytorch）.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/神经网络学习笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/深度学习/神经网络学习笔记.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第三周/自动微分/value.py" beforeDir="false" afterPath="$PROJECT_DIR$/深度学习/第三周/自动微分/value.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/深度学习/第三周/手写神经网络（完整）/train_moons.py" beforeDir="false" afterPath="$PROJECT_DIR$/深度学习/第三周/手写神经网络（完整）/train_moons.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778485012417</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update">
+      <option name="closed" value="true" />
+      <created>1778656284681</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1778656284681</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

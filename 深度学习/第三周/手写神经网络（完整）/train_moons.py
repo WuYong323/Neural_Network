@@ -10,7 +10,7 @@ from engine import Value
 from nn import MLP
 
 SEED=1337
-EPOCH=100
+EPOCH=200
 lr=0.1
 random.seed(SEED)
 np.random.seed(SEED)
