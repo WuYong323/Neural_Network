@@ -2,7 +2,6 @@ from pathlib import Path
 
 import matplotlib.pyplot as plt
 import torch
-from matplotlib import path
 
 DATA_PATH=Path(__file__).parent.parent/"names.txt"
 words=DATA_PATH.read_text(encoding='utf-8').splitlines()
