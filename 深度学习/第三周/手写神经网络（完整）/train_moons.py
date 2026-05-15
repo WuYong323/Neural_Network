@@ -10,8 +10,8 @@ from engine import Value
 from nn import MLP
 
 SEED=1337
-EPOCH=200
-lr=0.1
+EPOCH=100
+lr=1.0
 random.seed(SEED)
 np.random.seed(SEED)
 
@@ -28,7 +28,7 @@ def loss_fn(model,X,y,alpha=1e-4):
     inputs=[[Value(xi) for xi in rows] for rows in X]
     scores=[model(x) for x in inputs]
 
-    data_losses=[(score-yi)**2 for score,yi in zip(scores,y)]
+    data_losses=[(1+-float(yi)*score).relu() for score,yi in zip(scores,y)]
     data_loss=sum(data_losses)*(1.0/len(data_losses))
 
     reg_loss=alpha*sum((p*p for p in model.parameters()),Value(0.0))
@@ -48,6 +48,7 @@ for epoch in range(EPOCH):
 
     loss.backward()
 
+    current_lr=lr-0.9*epoch/EPOCH
     for p in model.parameters():
         p.data-=lr*p.grad
 
