@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7d269ef-e98a-4912-bafb-c71e5855a8e7" name="更改" comment="update" />
+    <list default="true" id="b7d269ef-e98a-4912-bafb-c71e5855a8e7" name="更改" comment="update">
+      <change afterPath="$PROJECT_DIR$/深度学习/Prompt(提示词).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第四周/makemore_MLP/src/profile_one_step.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第四周/makemore_MLP/src/run_ablation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第四周/makemore_MLP/学习笔记/W4_Day1_makemore_MLP_起步笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第四周/makemore_MLP/学习笔记/W4_Day2_makemore_MLP_前向训练.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第四周/makemore_MLP/学习笔记/W4_Day3_makemore_MLP_调参与首次profiler.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +72,9 @@
     "Python.nn.executor": "Run",
     "Python.nn_based.executor": "Run",
     "Python.predict_image.executor": "Run",
+    "Python.profile_one_step.executor": "Run",
     "Python.python value.py.executor": "Run",
+    "Python.run_ablation.executor": "Run",
     "Python.train.executor": "Run",
     "Python.train_moons.executor": "Run",
     "Python.value.executor": "Run",
@@ -90,10 +100,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习" />
+      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第四周\makemore_MLP\src\logs" />
+      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第四周\makemore_MLP\学习笔记" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第四周\makemore_MLP\src" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第四周" />
-      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第三周" />
-      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第三周\bigram语言模型\神经网络法" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第四周\makemore_MLP\test" />
@@ -347,7 +357,23 @@
       <option name="project" value="LOCAL" />
       <updated>1779186362526</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="update">
+      <option name="closed" value="true" />
+      <created>1779186865441</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1779186865441</updated>
+    </task>
+    <task id="LOCAL-00023" summary="update">
+      <option name="closed" value="true" />
+      <created>1779186913190</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1779186913190</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
