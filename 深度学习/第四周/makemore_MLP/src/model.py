@@ -4,12 +4,14 @@ from torch import Tensor
 
 from vocab import vocab_size
 
+from init import init_Makemore_mlp
+
 class MakemoreMLP:
     def __init__(
             self,
             block_size:int=3,
-            embed_dim:int=2,
-            hidden_size:int=100,
+            embed_dim:int=10,
+            hidden_size:int=200,
             vocab_size:int=vocab_size,
             seed:int=2147483647,
     )->None:
@@ -25,6 +27,7 @@ class MakemoreMLP:
         self.b1=torch.randn(hidden_size,generator=g,requires_grad=True)
         self.W2=torch.randn((hidden_size,vocab_size),generator=g,requires_grad=True)
         self.b2=torch.randn(vocab_size,generator=g,requires_grad=True)
+        init_Makemore_mlp(self)
 
 
     def parameters(self) ->list[Tensor]:

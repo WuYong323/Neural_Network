@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7d269ef-e98a-4912-bafb-c71e5855a8e7" name="更改" comment="update">
-      <change afterPath="$PROJECT_DIR$/深度学习/Prompt(提示词).md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第四周/makemore_MLP/src/profile_one_step.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第四周/makemore_MLP/src/run_ablation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第四周/makemore_MLP/学习笔记/W4_Day1_makemore_MLP_起步笔记.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第四周/makemore_MLP/学习笔记/W4_Day2_makemore_MLP_前向训练.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第四周/makemore_MLP/学习笔记/W4_Day3_makemore_MLP_调参与首次profiler.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第四周/makemore_MLP/src/init.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第四周/makemore_MLP/src/plot_activations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第四周/makemore_MLP/src/test_train_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第四周/makemore_MLP/参考论文/批量归一化：通过减少内部协变量偏移加速深度网络训练.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第四周/makemore_MLP/参考论文/深入探讨整流器：在ImageNet分类中超越人类水平的表现.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第四周/makemore_MLP/参考论文/神经概率语言模型（英文）.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第四周/makemore_MLP/学习笔记/W4_Day4_makemore_MLP_初始化与稳定性.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/深度学习/第四周/makemore_MLP/src/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/深度学习/第四周/makemore_MLP/src/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/深度学习/第四周/makemore_MLP/src/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/深度学习/第四周/makemore_MLP/src/train.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,64 +59,66 @@
     <option name="showLibraryContents" value="true" />
     <option name="sortKey" value="BY_TIME_ASCENDING" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.Xavier.executor&quot;: &quot;Run&quot;,
-    &quot;Python.benchmark_lookup.executor&quot;: &quot;Run&quot;,
-    &quot;Python.count_based（计数法bigram）.executor&quot;: &quot;Run&quot;,
-    &quot;Python.data_loader.executor&quot;: &quot;Run&quot;,
-    &quot;Python.eval.executor&quot;: &quot;Run&quot;,
-    &quot;Python.gradient_check.executor&quot;: &quot;Run&quot;,
-    &quot;Python.infer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lr_range_test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.model.executor&quot;: &quot;Run&quot;,
-    &quot;Python.nn.executor&quot;: &quot;Run&quot;,
-    &quot;Python.nn_based.executor&quot;: &quot;Run&quot;,
-    &quot;Python.predict_image.executor&quot;: &quot;Run&quot;,
-    &quot;Python.profile_one_step.executor&quot;: &quot;Run&quot;,
-    &quot;Python.python value.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.run_ablation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.train.executor&quot;: &quot;Run&quot;,
-    &quot;Python.train_moons.executor&quot;: &quot;Run&quot;,
-    &quot;Python.value.executor&quot;: &quot;Run&quot;,
-    &quot;Python.实验一.executor&quot;: &quot;Run&quot;,
-    &quot;Python.梯度测试（对比pytorch）.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/donk/PycharmProjects/JupyterProject1/深度学习&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion.inline&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Xavier.executor": "Run",
+    "Python.benchmark_lookup.executor": "Run",
+    "Python.count_based（计数法bigram）.executor": "Run",
+    "Python.data_loader.executor": "Run",
+    "Python.eval.executor": "Run",
+    "Python.gradient_check.executor": "Run",
+    "Python.infer.executor": "Run",
+    "Python.init.executor": "Run",
+    "Python.lr_range_test.executor": "Run",
+    "Python.model.executor": "Run",
+    "Python.nn.executor": "Run",
+    "Python.nn_based.executor": "Run",
+    "Python.plot_activations.executor": "Run",
+    "Python.predict_image.executor": "Run",
+    "Python.profile_one_step.executor": "Run",
+    "Python.python value.py.executor": "Run",
+    "Python.run_ablation.executor": "Run",
+    "Python.train.executor": "Run",
+    "Python.train_moons.executor": "Run",
+    "Python.value.executor": "Run",
+    "Python.实验一.executor": "Run",
+    "Python.梯度测试（对比pytorch）.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/donk/PycharmProjects/JupyterProject1/深度学习/第四周/makemore_MLP/参考论文",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.completion.inline",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第四周\makemore_MLP\参考论文" />
+      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第四周\makemore_MLP\学习笔记" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第四周\makemore_MLP\src\logs" />
-      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第四周\makemore_MLP\学习笔记" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第四周\makemore_MLP\src" />
-      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第四周" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第四周\makemore_MLP\src" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第四周\makemore_MLP\test" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第三周\bigram语言模型\计数法" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第三周\手写神经网络（完整）" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第三周\自动微分" />
-      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第二周" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.nn">
+  <component name="RunManager">
     <configuration name="nn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="深度学习" />
       <option name="ENV_FILES" value="" />
@@ -373,7 +378,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779186913190</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="update">
+      <option name="closed" value="true" />
+      <created>1779258872962</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1779258872962</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -404,6 +417,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>

@@ -74,7 +74,7 @@ def train(
             for p in model.parameters():
                 p.data-=lr*p.grad
 
-        if step%eval_every==0 or step==steps:
+        if step%eval_every==0 or step==steps or step==1:
             dev_loss=eval_loss(model,Xdv,Ydv)
             history.append((step,loss.item(),dev_loss))
             elapsed=time.perf_counter()-t0
@@ -90,7 +90,7 @@ def main():
     batch_size=32
     lr=0.1
     block_size=3
-    embed_dim=2
+    embed_dim=10
     hidden_size=100
 
     Xtr,Ytr,Xdv,Ydv,Xte,Yte,_,_=load_data(block_size=block_size)
