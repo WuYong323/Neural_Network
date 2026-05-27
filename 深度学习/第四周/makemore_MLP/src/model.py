@@ -2,9 +2,12 @@ from __future__ import  annotations
 import torch
 from torch import Tensor
 
-from vocab import vocab_size
 
+from batchnorm import BatchNorm1d
+from vocab import vocab_size
 from init import init_Makemore_mlp
+
+
 
 class MakemoreMLP:
     def __init__(
@@ -14,6 +17,7 @@ class MakemoreMLP:
             hidden_size:int=200,
             vocab_size:int=vocab_size,
             seed:int=2147483647,
+            use_bn:bool=False,
     )->None:
         g=torch.Generator().manual_seed(seed)
         self.block_size=block_size
@@ -29,19 +33,42 @@ class MakemoreMLP:
         self.b2=torch.randn(vocab_size,generator=g,requires_grad=True)
         init_Makemore_mlp(self)
 
+        self.use_bn=use_bn
+        if use_bn:
+            self.bn=BatchNorm1d(hidden_size)
+
 
     def parameters(self) ->list[Tensor]:
-        return [self.C,self.W1,self.b1,self.W2,self.b2]
+        ps=[self.C,self.W1,self.b1,self.W2,self.b2]
+        if self.use_bn:
+            ps+=self.bn.parameters()
+        return ps
+
+
+    def eval(self):
+        if self.use_bn:
+            self.bn.eval()
+
+
+    def train(self):
+        if self.use_bn:
+            self.bn.train()
+
 
     def num_params(self)->int:
         return sum(p.numel() for p in self.parameters())
 
+
     def forward(self,X:Tensor)->Tensor:
         emb=self.C[X]
         flat=emb.view(emb.shape[0],-1)
-        hidden=torch.tanh(flat@self.W1+self.b1)
+        pre=flat@self.W1+self.b1
+        if self.use_bn:
+            pre=self.bn(pre)
+        hidden=torch.tanh(pre)
         logits=hidden@self.W2+self.b2
         return logits
+
 
 
 def _self_test()->None:
