@@ -2,12 +2,10 @@ from __future__ import annotations
 
 from pathlib import Path
 
-import matplotlib
 import matplotlib.pyplot as plt
 
 import torch
 from pygments.styles import default
-from sympy.benchmarks.bench_meijerint import alpha
 from torch import Tensor
 
 from model import MakemoreMLP
