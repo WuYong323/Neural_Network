@@ -70,9 +70,17 @@ def train(
             p.grad=None
         loss.backward()
 
+        """
+        手写SGD
         with torch.no_grad():
             for p in model.parameters():
                 p.data-=lr*p.grad
+        """
+
+        # 优化器内建 weight_decay（工业默认）
+        # 等价于"每步把 w 乘以 (1 - lr * weight_decay)"
+        # PyTorch 的 weight_decay = Andrew Ng 视频里的 λ，但已经吸收了 lr，所以数值上对不上
+        optimizer=torch.optim.SGD(model.parameters(),lr=lr,weight_decay=1e-4)
 
         if step%eval_every==0 or step==steps or step==1:
             dev_loss=eval_loss(model,Xdv,Ydv)
