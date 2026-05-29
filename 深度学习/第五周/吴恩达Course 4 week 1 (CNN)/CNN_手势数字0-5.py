@@ -158,7 +158,7 @@ if __name__=="__main__":
 
     train_set_x_orig, train_set_y_orig, test_set_x_orig, test_set_y_orig, classes = load_dataset()
 
-    indexes=torch.randint(0,100,(10,))
+    indexes=torch.randint(0,100,(3,))
 
     for index in indexes:
         single_img=test_set_x_orig[index]
