@@ -135,12 +135,33 @@ def main():
         if val_acc>best_val_acc:
             best_val_acc=val_acc
             patience_counter=0
-            torch.save(model.state_dict(),'best_signs.pt')
+            torch.save(model.state_dict(), 'best_signs.pt')
         else:
             patience_counter+=1
             if patience_counter >= EARLY_STOP_PATIENCE:
                 print(f"Early stop at epoch {epoch}")
                 break
+
+    from torch.profiler import profile, ProfilerActivity, schedule
+
+    with profile(
+            activities=[ProfilerActivity.CPU, ProfilerActivity.CUDA],
+            schedule=schedule(wait=1, warmup=2, active=3, repeat=1),
+            record_shapes=True
+    ) as prof:
+        for step,(x,y) in enumerate(train_loader):
+            x,y=x.to(device),y.to(device)
+            optimizer.zero_grad(set_to_none=True)
+            loss = criterion(model(x), y)
+            loss.backward()
+            optimizer.step()
+            prof.step()
+            if step >= 10:
+                break
+
+    print(prof.key_averages().table(sort_by='cuda_time_total', row_limit=15))
+
+
 
 
 
@@ -152,7 +173,7 @@ if __name__=="__main__":
 
     device=torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     model=SignsCNN(num_classes=6)
-    model.load_state_dict(torch.load("best_signs.pt",map_location='cpu'))
+    model.load_state_dict(torch.load("best_signs.pt", map_location='cpu'))
     model.eval()
     model.to(device)
 
@@ -173,6 +194,8 @@ if __name__=="__main__":
         plt.imshow(single_img)
         plt.title(f"number={pred}")
         plt.show()
+
+
 
 
 

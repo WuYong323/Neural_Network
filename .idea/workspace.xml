@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7d269ef-e98a-4912-bafb-c71e5855a8e7" name="更改" comment="update">
-      <change afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 week 1 (CNN)/CNN_numpy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 week 1 (CNN)/CNN_手势数字0-5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 week 1 (CNN)/datasets/test_signs.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 week 1 (CNN)/datasets/train_signs.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/LeNet/LeNet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/LeNet/train_LeNet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第五周/学习笔记/AndrewNg_C4W1_CNN作业笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第五周/学习笔记/W5_Day2_LeNet5复现_经典CNN对比.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 week 1 (CNN)/CNN_numpy.py" beforeDir="false" afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/现代CNN/CNN_numpy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 week 1 (CNN)/CNN_手势数字0-5.py" beforeDir="false" afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/现代CNN/CNN_手势数字0-5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 week 1 (CNN)/best_signs.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 week 1 (CNN)/datasets/test_signs.h5" beforeDir="false" afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/现代CNN/datasets/test_signs.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 week 1 (CNN)/datasets/train_signs.h5" beforeDir="false" afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/现代CNN/datasets/train_signs.h5" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +66,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.CNN_手势数字0-5.executor": "Run",
     "Python.Conv_BN fuse.executor": "Run",
+    "Python.LeNet.executor": "Run",
     "Python.Xavier.executor": "Run",
     "Python.batchnorm.executor": "Run",
     "Python.benchmark_lookup.executor": "Run",
@@ -87,10 +93,12 @@
     "Python.run_ablation.executor": "Run",
     "Python.run_profiler.executor": "Run",
     "Python.train.executor": "Run",
+    "Python.train_LeNet.executor": "Run",
     "Python.train_bn.executor": "Run",
     "Python.train_moons.executor": "Run",
     "Python.value.executor": "Run",
     "Python.zeor_pad.executor": "Run",
+    "Python.实验.executor": "Run",
     "Python.实验一.executor": "Run",
     "Python.梯度测试（对比pytorch）.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -100,7 +108,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/donk/PycharmProjects/JupyterProject1/深度学习/第五周/吴恩达Course 4 week 1 (CNN)",
+    "last_opened_file_path": "C:/Users/donk/PycharmProjects/JupyterProject1/深度学习/第五周/学习笔记",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -112,18 +120,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第五周\学习笔记" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第五周\吴恩达Course 4 week 1 (CNN)" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第四周\makemore_MLP\学习笔记" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第四周\makemore_MLP\参考论文" />
-      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第四周\makemore_MLP\src\logs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第五周\吴恩达Course 4 (CNN)\现代CNN" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第四周\makemore_MLP\src" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第四周\makemore_MLP\test" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第三周\bigram语言模型\计数法" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第三周\手写神经网络（完整）" />
-      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第三周\自动微分" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -377,7 +385,23 @@
       <option name="project" value="LOCAL" />
       <updated>1779963678510</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="update">
+      <option name="closed" value="true" />
+      <created>1780072304705</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1780072304705</updated>
+    </task>
+    <task id="LOCAL-00031" summary="update">
+      <option name="closed" value="true" />
+      <created>1780072375134</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1780072375134</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
