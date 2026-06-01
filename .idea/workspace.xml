@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7d269ef-e98a-4912-bafb-c71e5855a8e7" name="更改" comment="update">
-      <change afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/Roofline模型.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/im2col/im2col_numpy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/im2col/朴素卷积.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/ResNet/BasicBlock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/ResNet/bottleneck.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +57,7 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.BasicBlock.executor": "Run",
     "Python.CNN_手势数字0-5.executor": "Run",
     "Python.Conv_BN fuse.executor": "Run",
     "Python.LeNet.executor": "Run",
@@ -65,6 +65,7 @@
     "Python.Xavier.executor": "Run",
     "Python.batchnorm.executor": "Run",
     "Python.benchmark_lookup.executor": "Run",
+    "Python.bottleneck.executor": "Run",
     "Python.cnn_utils.executor": "Run",
     "Python.count_based（计数法bigram）.executor": "Run",
     "Python.data_loader.executor": "Run",
@@ -406,7 +407,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780215561352</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="update">
+      <option name="closed" value="true" />
+      <created>1780309807042</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1780309807042</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
