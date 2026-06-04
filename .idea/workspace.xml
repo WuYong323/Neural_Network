@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7d269ef-e98a-4912-bafb-c71e5855a8e7" name="更改" comment="update">
-      <change afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/CIFAR-10/checkpoint_compare.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/CIFAR-10/data/cifar-10-python.tar.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/CIFAR-10/eval.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/CIFAR-10/memory_breakdown.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/CIFAR-10/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/CIFAR-10/profile_resnet.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/CIFAR-10/resnet18_cifar.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/CIFAR-10/train_resnet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/ResNet/ablation_study (grad).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第五周/学习笔记/W5_Day5_ResNet18_CIFAR10训练_显存四份账与梯度检查点.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第五周/学习笔记/W5_Day6_profiler_chrome_trace.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/神经网络学习笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/深度学习/神经网络学习笔记.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +111,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/donk/PycharmProjects/JupyterProject1/深度学习/第五周/学习笔记",
+    "last_opened_file_path": "C:/Users/donk/PycharmProjects/JupyterProject1/深度学习/第五周/吴恩达Course 4 (CNN)/CIFAR-10/logs",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -131,11 +123,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第五周\吴恩达Course 4 (CNN)\CIFAR-10\logs" />
+      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第五周\学习笔记" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第五周\吴恩达Course 4 (CNN)\CIFAR-10" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第五周\吴恩达Course 4 (CNN)\CIFAR-10\data" />
-      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第五周\学习笔记" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第五周\吴恩达Course 4 week 1 (CNN)" />
-      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第四周\makemore_MLP\学习笔记" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第五周\吴恩达Course 4 (CNN)\im2col" />
@@ -436,7 +428,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780328308451</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="update">
+      <option name="closed" value="true" />
+      <created>1780556961231</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1780556961231</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
