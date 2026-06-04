@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7d269ef-e98a-4912-bafb-c71e5855a8e7" name="更改" comment="update">
-      <change afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/ResNet/BasicBlock.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/ResNet/bottleneck.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/CIFAR-10/checkpoint_compare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/CIFAR-10/data/cifar-10-python.tar.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/CIFAR-10/eval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/CIFAR-10/memory_breakdown.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/CIFAR-10/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/CIFAR-10/resnet18_cifar.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/CIFAR-10/train_resnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/ResNet/ablation_study (grad).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第五周/学习笔记/W5_Day5_ResNet18_CIFAR10训练_显存四份账与梯度检查点.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第五周/学习笔记/W5_Day6_profiler_chrome_trace.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/深度学习/神经网络学习笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/深度学习/神经网络学习笔记.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +72,11 @@
     "Python.LeNet.executor": "Run",
     "Python.Roofline模型.executor": "Run",
     "Python.Xavier.executor": "Run",
+    "Python.ablation_study (grad).executor": "Run",
     "Python.batchnorm.executor": "Run",
     "Python.benchmark_lookup.executor": "Run",
     "Python.bottleneck.executor": "Run",
+    "Python.checkpoint_compare.executor": "Run",
     "Python.cnn_utils.executor": "Run",
     "Python.count_based（计数法bigram）.executor": "Run",
     "Python.data_loader.executor": "Run",
@@ -78,6 +89,7 @@
     "Python.init.executor": "Run",
     "Python.lr_range_test.executor": "Run",
     "Python.lr_schedule.executor": "Run",
+    "Python.memory_breakdown.executor": "Run",
     "Python.model.executor": "Run",
     "Python.nn.executor": "Run",
     "Python.nn_based.executor": "Run",
@@ -93,6 +105,7 @@
     "Python.train_LeNet.executor": "Run",
     "Python.train_bn.executor": "Run",
     "Python.train_moons.executor": "Run",
+    "Python.train_resnet.executor": "Run",
     "Python.value.executor": "Run",
     "Python.zeor_pad.executor": "Run",
     "Python.实验.executor": "Run",
@@ -118,11 +131,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第五周\吴恩达Course 4 (CNN)\CIFAR-10" />
+      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第五周\吴恩达Course 4 (CNN)\CIFAR-10\data" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第五周\学习笔记" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第五周\吴恩达Course 4 week 1 (CNN)" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第四周\makemore_MLP\学习笔记" />
-      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习" />
-      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第四周\makemore_MLP\参考论文" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第五周\吴恩达Course 4 (CNN)\im2col" />
@@ -415,7 +428,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780309807042</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="update">
+      <option name="closed" value="true" />
+      <created>1780328308451</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1780328308451</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
