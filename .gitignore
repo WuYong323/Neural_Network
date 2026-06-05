@@ -14,4 +14,4 @@ checkpoints/
 logs/
 *.npz
 *.csv
-*.gz
+*.tar.gz
