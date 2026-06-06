@@ -4,7 +4,8 @@
       "Bash(python -c ' *)",
       "WebFetch(domain:raw.githubusercontent.com)",
       "Bash(git fetch *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(pip show *)"
     ]
   }
 }
