@@ -6,11 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b7d269ef-e98a-4912-bafb-c71e5855a8e7" name="更改" comment="update">
       <change afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/CIFAR-10/data/cifar-10-python.tar.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第六周/EP5/modules.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第六周/EP5/names.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第六周/EP5/wavenet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第六周/学习笔记/W6_Day1_EP5_WaveNet_Module容器抽象.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.claude/settings.local.json" beforeDir="false" afterPath="$PROJECT_DIR$/.claude/settings.local.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第六周/EP6：nanoGPT/attention_single.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第六周/EP6：nanoGPT/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第六周/学习笔记/W6_Day2_EP6_nanoGPT_单头SelfAttention.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,8 +66,10 @@
     "Python.Roofline模型.executor": "Run",
     "Python.Xavier.executor": "Run",
     "Python.ablation_study (grad).executor": "Run",
+    "Python.attention_single.executor": "Run",
     "Python.batchnorm.executor": "Run",
     "Python.benchmark_lookup.executor": "Run",
+    "Python.bigram.executor": "Run",
     "Python.bottleneck.executor": "Run",
     "Python.checkpoint_compare.executor": "Run",
     "Python.cnn_utils.executor": "Run",
@@ -78,6 +78,7 @@
     "Python.demo_dropout.executor": "Run",
     "Python.demo_l2.executor": "Run",
     "Python.eval.executor": "Run",
+    "Python.gpt.executor": "Run",
     "Python.gradient_check.executor": "Run",
     "Python.im2col_numpy.executor": "Run",
     "Python.infer.executor": "Run",
@@ -114,7 +115,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/donk/PycharmProjects/JupyterProject1/深度学习/第六周/EP5",
+    "last_opened_file_path": "C:/Users/donk/PycharmProjects/JupyterProject1/深度学习/第六周/EP6：nanoGPT",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -126,11 +127,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第六周\EP5" />
+      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第六周\EP6：nanoGPT" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第六周\学习笔记" />
+      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第六周\EP5" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第五周\吴恩达Course 4 (CNN)\CIFAR-10\logs" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第五周\学习笔记" />
-      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第五周\吴恩达Course 4 (CNN)\CIFAR-10" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第五周\吴恩达Course 4 (CNN)\im2col" />
@@ -471,7 +472,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780625365012</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="update">
+      <option name="closed" value="true" />
+      <created>1780733288302</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1780733288302</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
