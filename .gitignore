@@ -12,6 +12,6 @@ __pycache__/
 MNIST数据集/
 checkpoints/
 logs/
+cifar-10-python.tar.gz
 *.npz
 *.csv
-*.tar.gz
