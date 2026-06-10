@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b7d269ef-e98a-4912-bafb-c71e5855a8e7" name="更改" comment="update">
       <change afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/CIFAR-10/data/cifar-10-python.tar.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第六周/EP6：nanoGPT/attention_single.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第六周/EP6：nanoGPT/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第六周/学习笔记/W6_Day2_EP6_nanoGPT_单头SelfAttention.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第六周/EP6：nanoGPT/CasualSelfAttention.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +113,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/donk/PycharmProjects/JupyterProject1/深度学习/第六周/EP6：nanoGPT",
+    "last_opened_file_path": "C:/Users/donk/PycharmProjects/JupyterProject1/深度学习/第六周/学习笔记",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -127,8 +125,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第六周\EP6：nanoGPT" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第六周\学习笔记" />
+      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第六周\EP6：nanoGPT" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第六周\EP5" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第五周\吴恩达Course 4 (CNN)\CIFAR-10\logs" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第五周\学习笔记" />
@@ -480,7 +478,23 @@
       <option name="project" value="LOCAL" />
       <updated>1780733288302</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="update">
+      <option name="closed" value="true" />
+      <created>1780812957278</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1780812957278</updated>
+    </task>
+    <task id="LOCAL-00042" summary="update">
+      <option name="closed" value="true" />
+      <created>1780813016907</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1780813016907</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
