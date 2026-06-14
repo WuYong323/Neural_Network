@@ -7,19 +7,19 @@ from torch.nn import functional as F
 torch.manual_seed(1337)
 
 batch_size=16
-block_size=64
-n_embd=128
+block_size=128
+n_embd=256
 n_head=4
 n_layer=4
 dropout=0.0
 device="cuda" if torch.cuda.is_available() else "cpu"
 
-with open("input.txt",'r') as f:
-    words=f.read().splitlines()
+with open("斗破苍穹.txt",'r',encoding='gbk') as f:   #utf-8是中文训练集
+    words=f.read()        #加splitlines（）就是逐句token，不加就是逐字母token（中文不加才训练的好）
 chars=sorted(list(set(words)))
 vocab_size=len(chars)
 stoi={s:i for i,s in enumerate(chars)}
-itos={i:s for s,i in enumerate(chars)}
+itos={i:s for s,i in stoi.items()}
 encode=lambda s:[stoi[c] for c in s]
 decode=lambda l:''.join(itos[i] for i in l)
 data=torch.tensor(encode(words),dtype=torch.long)
@@ -36,7 +36,7 @@ class CausalSelfAttention(nn.Module):
     def __init__(self):
         super().__init__()
         self.c_attn=nn.Linear(n_embd,3*n_embd,bias=False)         #进食后人：bias=False
-        self.c_proj=nn.Linear(n_embd,n_head,bias=False)
+        self.c_proj=nn.Linear(n_embd,n_embd,bias=False)
         self.dropout=nn.Dropout(dropout)
 
     def forward(self,x):
@@ -55,7 +55,7 @@ class MLP(nn.Module):
     def __init__(self):
         super().__init__()
         self.c_fc=nn.Linear(n_embd,n_embd*4,bias=False)
-        self.gelu=nn.GELU
+        self.gelu=nn.GELU()
         self.c_proj=nn.Linear(n_embd*4,n_embd,bias=False)
         self.dropout=nn.Dropout(dropout)
 
@@ -86,32 +86,32 @@ class GPT(nn.Module):
             wte=nn.Embedding(vocab_size,n_embd),  #token查表
             wpe=nn.Embedding(block_size,n_embd),  #位置查表
             h=nn.ModuleList([Block() for _ in range(n_layer)]),
-            in_f=nn.LayerNorm(n_embd)
+            ln_f=nn.LayerNorm(n_embd)
         ))
         self.lm_head=nn.Linear(n_embd,vocab_size,bias=False)
         self.transformer.wte.weight=self.lm_head.weight  #共用矩阵
         self.apply(self._init_weights)
 
     def _init_weights(self,module):
+        std = 0.02
         if isinstance(module,nn.Linear):
-            std=0.02
-            if hasattr(module,"is_residual_proj"):
+            if hasattr(module,"_is_residual_proj"):
                 std*=(2*n_layer)**-0.5
-            nn.init.normal_(module.weight,mean=0.0,std=0.02)
+            nn.init.normal_(module.weight,mean=0.0,std=std)
             if module.bias is not None:   #好习惯
                 nn.init.zeros_(module.bias)
         elif isinstance(module,nn.Embedding):
-            nn.init.normal_(module.weight,mean=0.0,std=0.02)
+            nn.init.normal_(module.weight,mean=0.0,std=std)
 
     def forward(self,idx,targets=None):
         B,T=idx.shape
         tok_emb=self.transformer.wte(idx)
-        pos_emb=self.transformer.wpt(torch.arange(T,device=idx.device))
+        pos_emb=self.transformer.wpe(torch.arange(T,device=idx.device))
         x=tok_emb+pos_emb
         for block in self.transformer.h:
             x=block(x)
         x=self.transformer.ln_f(x)
-        logits=self.lm_head
+        logits=self.lm_head(x)
         loss=None
         if targets is not None:
             loss=F.cross_entropy(logits.view(-1,vocab_size),targets.view(-1))
