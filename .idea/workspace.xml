@@ -7,7 +7,6 @@
     <list default="true" id="b7d269ef-e98a-4912-bafb-c71e5855a8e7" name="更改" comment="update">
       <change afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/CIFAR-10/data/cifar-10-python.tar.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第六周/EP6：nanoGPT/GPT.py" beforeDir="false" afterPath="$PROJECT_DIR$/深度学习/第六周/EP6：nanoGPT/GPT.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -518,7 +517,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781372020945</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="update">
+      <option name="closed" value="true" />
+      <created>1781405924332</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1781405924332</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
