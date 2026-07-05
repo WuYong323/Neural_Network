@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7d269ef-e98a-4912-bafb-c71e5855a8e7" name="更改" comment="update">
-      <change afterPath="$PROJECT_DIR$/深度学习/第七周/profiler/KV_cache（加nvtx）.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第七周/profiler/nanogpt_decode.nsys-rep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第七周/学习笔记/W7_Day1_Roofline_算术强度与H100脊点.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第七周/学习笔记/W7_Day2_三级Profiler工具链_torchprofiler_nsys_ncu.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/CIFAR-10/data/cifar-10-python.tar.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/深度学习/第七周/profiler/KV_cache（加nvtx）.py" beforeDir="false" afterPath="$PROJECT_DIR$/深度学习/第七周/profiler/KV_cache_nvtx.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,10 +131,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第七周\profiler" />
+      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第七周\学习笔记" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第六周\EP6：nanoGPT\logs" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第六周\学习笔记" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第六周\EP6：nanoGPT" />
-      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第六周\EP5" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第六周\EP6：nanoGPT" />
@@ -159,14 +162,6 @@
       <option name="presentableId" value="Default" />
       <updated>1777372610322</updated>
       <workItem from="1778387975245" duration="30000" />
-    </task>
-    <task id="LOCAL-00002" summary="update">
-      <option name="closed" value="true" />
-      <created>1778153225592</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1778153225592</updated>
     </task>
     <task id="LOCAL-00003" summary="update">
       <option name="closed" value="true" />
@@ -552,7 +547,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783223015578</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="update">
+      <option name="closed" value="true" />
+      <created>1783227518186</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1783227518187</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
