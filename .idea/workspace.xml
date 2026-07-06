@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7d269ef-e98a-4912-bafb-c71e5855a8e7" name="更改" comment="update">
-      <change afterPath="$PROJECT_DIR$/深度学习/第七周/profiler/nanogpt_decode.nsys-rep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第七周/学习笔记/W7_Day1_Roofline_算术强度与H100脊点.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第七周/学习笔记/W7_Day2_三级Profiler工具链_torchprofiler_nsys_ncu.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第七周/RNN/RNN_serial_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第七周/profiler/gpu_trace.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/CIFAR-10/data/cifar-10-python.tar.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第七周/profiler/KV_cache（加nvtx）.py" beforeDir="false" afterPath="$PROJECT_DIR$/深度学习/第七周/profiler/KV_cache_nvtx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/深度学习/第七周/profiler/nanogpt_decode.nsys-rep" beforeDir="false" afterPath="$PROJECT_DIR$/深度学习/第七周/profiler/nanogpt_decode.nsys-rep" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +64,7 @@
     "Python.Conv_BN fuse.executor": "Run",
     "Python.KV_cache.executor": "Run",
     "Python.LeNet.executor": "Run",
+    "Python.RNN_serial_demo.executor": "Run",
     "Python.Roofline模型.executor": "Run",
     "Python.Xavier.executor": "Run",
     "Python.ablation_study (grad).executor": "Run",
@@ -162,14 +162,6 @@
       <option name="presentableId" value="Default" />
       <updated>1777372610322</updated>
       <workItem from="1778387975245" duration="30000" />
-    </task>
-    <task id="LOCAL-00003" summary="update">
-      <option name="closed" value="true" />
-      <created>1778154132455</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1778154132455</updated>
     </task>
     <task id="LOCAL-00004" summary="update">
       <option name="closed" value="true" />
@@ -555,7 +547,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783227518187</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="update">
+      <option name="closed" value="true" />
+      <created>1783229207321</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1783229207321</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
