@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7d269ef-e98a-4912-bafb-c71e5855a8e7" name="更改" comment="update">
-      <change afterPath="$PROJECT_DIR$/深度学习/第七周/RNN/RNN_serial_demo.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/深度学习/第七周/profiler/gpu_trace.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/CIFAR-10/data/cifar-10-python.tar.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/深度学习/第七周/profiler/nanogpt_decode.nsys-rep" beforeDir="false" afterPath="$PROJECT_DIR$/深度学习/第七周/profiler/nanogpt_decode.nsys-rep" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -162,14 +160,6 @@
       <option name="presentableId" value="Default" />
       <updated>1777372610322</updated>
       <workItem from="1778387975245" duration="30000" />
-    </task>
-    <task id="LOCAL-00004" summary="update">
-      <option name="closed" value="true" />
-      <created>1778154305670</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1778154305670</updated>
     </task>
     <task id="LOCAL-00005" summary="update">
       <option name="closed" value="true" />
@@ -555,7 +545,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783229207321</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="update">
+      <option name="closed" value="true" />
+      <created>1783322540165</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1783322540165</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
