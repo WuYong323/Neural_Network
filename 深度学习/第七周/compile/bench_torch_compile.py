@@ -45,7 +45,7 @@ with torch.no_grad():
     compiled=torch.compile(model)
     t_default=bench(compiled,x)
 
-    compiled_ro=torch.compile(model,mode="reduce_overhead")
+    compiled_ro=torch.compile(model,mode="reduce-overhead")
     t_ro=bench(compiled_ro,x)
 
 print(f"eager                : {t_eager:.4f} ms/iter  (baseline)")
