@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7d269ef-e98a-4912-bafb-c71e5855a8e7" name="更改" comment="update">
-      <change afterPath="$PROJECT_DIR$/深度学习/第七周/bench_precision.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/深度学习/第七周/profiler/gpu_trace.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第七周/数值一致性/三种验证方法（三个尺子）.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第七周/量化/BF16_FP32_FP16.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第七周/量化/INT8量化.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第七周/小模型实测/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/深度学习/第七周/bench_precision.py" beforeDir="false" afterPath="$PROJECT_DIR$/深度学习/第七周/小模型实测/bench_precision.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +71,7 @@
     "Python.ablation_study (grad).executor": "Run",
     "Python.attention_single.executor": "Run",
     "Python.batchnorm.executor": "Run",
+    "Python.bench_precision.executor": "Run",
     "Python.benchmark_lookup.executor": "Run",
     "Python.bigram.executor": "Run",
     "Python.bottleneck.executor": "Run",
@@ -141,11 +140,11 @@
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第六周\EP6：nanoGPT" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第七周" />
+      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\小模型实测" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第七周\fusion" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第六周\EP6：nanoGPT" />
       <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第五周\吴恩达Course 4 (CNN)\im2col" />
-      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第五周\吴恩达Course 4 (CNN)\现代CNN" />
-      <recent name="C:\Users\donk\PycharmProjects\JupyterProject1\深度学习\第四周\makemore_MLP\src" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -166,14 +165,6 @@
       <option name="presentableId" value="Default" />
       <updated>1777372610322</updated>
       <workItem from="1778387975245" duration="30000" />
-    </task>
-    <task id="LOCAL-00014" summary="update">
-      <option name="closed" value="true" />
-      <created>1778841242504</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1778841242504</updated>
     </task>
     <task id="LOCAL-00015" summary="update">
       <option name="closed" value="true" />
@@ -559,7 +550,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783482166455</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="update">
+      <option name="closed" value="true" />
+      <created>1783499605621</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1783499605621</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
