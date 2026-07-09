@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b7d269ef-e98a-4912-bafb-c71e5855a8e7" name="更改" comment="update">
       <change afterPath="$PROJECT_DIR$/深度学习/第七周/profiler/gpu_trace.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第八周/Triton/h100_n=1e6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第八周/Triton/h100_n=2^26.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第八周/Triton/rtx3080_n=1e6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第八周/Triton/rtx3080_n=2^26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第八周/Triton/a100_n=1e6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第八周/Triton/a100_n=2^26.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -168,14 +166,6 @@
       <option name="presentableId" value="Default" />
       <updated>1777372610322</updated>
       <workItem from="1778387975245" duration="30000" />
-    </task>
-    <task id="LOCAL-00018" summary="update">
-      <option name="closed" value="true" />
-      <created>1779185984070</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1779185984070</updated>
     </task>
     <task id="LOCAL-00019" summary="update">
       <option name="closed" value="true" />
@@ -561,7 +551,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783581046525</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="update">
+      <option name="closed" value="true" />
+      <created>1783584313290</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1783584313290</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
