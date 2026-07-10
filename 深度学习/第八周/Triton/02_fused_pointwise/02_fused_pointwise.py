@@ -26,7 +26,7 @@ def fused_mul_add_relu_kernel(
     y=x*a+b
     y=tl.maximum(y,0.0)
 
-    tl.store(out_ptr+offs,y,mask==mask)
+    tl.store(out_ptr+offs,y,mask=mask)
 
 
 def fused_triton(x,a,b):
@@ -111,7 +111,7 @@ def sweep_and_plot():
     torch.manual_seed(0)
     device="cuda"
     # 从 16K 扫到 64M;显存够的话可加 1<<27(128M)
-    exps=[14,14,18,20,22,23,24,25,26]
+    exps=[14,16,18,20,22,23,24,25,26]
     sizes,sp_triton,sp_compile=[],[],[]
 
     for e in exps:
@@ -133,14 +133,14 @@ def sweep_and_plot():
         torch.cuda.empty_cache()
 
     plt.figure(figsize=(8,5))
-    plt.plot(sizes,sp_triton,"o-",label="手写 Triton 融合")
+    plt.plot(sizes,sp_triton,"o-",label="hand Triton fusion")
     plt.plot(sizes,sp_compile,"s--",label="torch.compile")
-    plt.axhline(2.0,color="gray",ls=":",label="理论上限 2x (8N->4N)")
-    plt.axhline(1.0,color="red",ls=":",label="1x (无收益)")
+    plt.axhline(2.0,color="gray",ls=":",label="ceiling 2x (8N->4N)")
+    plt.axhline(1.0,color="red",ls=":",label="1x (None)")
     plt.xscale("log")
-    plt.xlabel("张量元素数 N (log)")
-    plt.ylabel("相对朴素 3 算子的加速比")
-    plt.title("融合加速比 vs 张量大小：小张量无感，大张量逼近 2x")
+    plt.xlabel("tensor number: N (log)")
+    plt.ylabel("Speedup of relatively simple 3 operators")
+    plt.title("Fusion speedup vs tensor size: small tensors hardly notice, big tensors get close to 2x")
     plt.legend()
     plt.grid(True,which="both",alpha=0.3)
     plt.tight_layout()
