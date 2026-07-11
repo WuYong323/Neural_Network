@@ -8,11 +8,11 @@ import triton.language as tl
         # 每个 Config 是一套"配方"：BLOCK_SIZE + num_warps
         # BLOCK_SIZE 是每个program处理的元素
         # num_warps 是每个program里面的线程束(32个线程)
-        triton.Config({"BLOCK_SIZE":1024},num_warps=4),
-        triton.Config({"BLOCK_SIZE":1024},num_warps=8),
-        triton.Config({"BLOCK_SIZE":2048},num_warps=8),
-        triton.Config({"BLOCK_SIZE":4096},num_warps=8),
-        triton.Config({"BLOCK_SIZE":4096},num_warps=16),
+        triton.Config({"BLOCK_SIZE": 4096}, num_warps=2),
+        triton.Config({"BLOCK_SIZE": 4096}, num_warps=4),
+        triton.Config({"BLOCK_SIZE": 4096}, num_warps=8),
+        triton.Config({"BLOCK_SIZE": 8192}, num_warps=2),
+        triton.Config({"BLOCK_SIZE": 8192}, num_warps=4),
     ],
     key=['N']       # 当 N（行宽）变化时，重新跑一遍 autotune 选最优；N 不变就复用缓存
 )
