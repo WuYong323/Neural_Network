@@ -48,7 +48,7 @@ def rmsnorm_triton(x:torch.Tensor,weight:torch.Tensor,eps:float=1e-6):
 # ---------- ③ 参考实现（PyTorch eager，用来验证正确性） ----------
 def rmsnorm_torch(x,weight,eps=1e-6):
     xf=x.float()
-    ms=xf.pos(2).mean(dim=-1,keepdim=True)
+    ms=xf.pow(2).mean(dim=-1,keepdim=True)
     return (xf*torch.rsqrt(ms+eps)).to(x.dtype)*weight
 
 

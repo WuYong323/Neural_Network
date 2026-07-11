@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b7d269ef-e98a-4912-bafb-c71e5855a8e7" name="更改" comment="update">
       <change afterPath="$PROJECT_DIR$/深度学习/第七周/profiler/gpu_trace.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深度学习/第八周/Triton/03_rmsnorm/03_rmsnorm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/深度学习/第八周/Triton/03_rmsnorm/03_rmsnorm.py" beforeDir="false" afterPath="$PROJECT_DIR$/深度学习/第八周/Triton/03_rmsnorm/03_rmsnorm.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,14 +165,6 @@
       <option name="presentableId" value="Default" />
       <updated>1777372610322</updated>
       <workItem from="1778387975245" duration="30000" />
-    </task>
-    <task id="LOCAL-00025" summary="update">
-      <option name="closed" value="true" />
-      <created>1779366879158</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1779366879158</updated>
     </task>
     <task id="LOCAL-00026" summary="update">
       <option name="closed" value="true" />
@@ -558,7 +550,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783680957192</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="update">
+      <option name="closed" value="true" />
+      <created>1783748400212</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1783748400212</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
