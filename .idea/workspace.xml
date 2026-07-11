@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b7d269ef-e98a-4912-bafb-c71e5855a8e7" name="更改" comment="update">
       <change afterPath="$PROJECT_DIR$/深度学习/第七周/profiler/gpu_trace.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第八周/Triton/03_rmsnorm/03_rmsnorm.py" beforeDir="false" afterPath="$PROJECT_DIR$/深度学习/第八周/Triton/03_rmsnorm/03_rmsnorm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/深度学习/第八周/Triton/03_rmsnorm/rtx3080.png" beforeDir="false" afterPath="$PROJECT_DIR$/深度学习/第八周/Triton/03_rmsnorm/rtx3080.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,14 +164,6 @@
       <option name="presentableId" value="Default" />
       <updated>1777372610322</updated>
       <workItem from="1778387975245" duration="30000" />
-    </task>
-    <task id="LOCAL-00027" summary="update">
-      <option name="closed" value="true" />
-      <created>1779876964379</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1779876964379</updated>
     </task>
     <task id="LOCAL-00028" summary="update">
       <option name="closed" value="true" />
@@ -558,7 +549,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783750572335</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="update">
+      <option name="closed" value="true" />
+      <created>1783751469859</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1783751469860</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
