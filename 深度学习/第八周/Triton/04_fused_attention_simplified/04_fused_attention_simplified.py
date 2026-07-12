@@ -73,7 +73,7 @@ def flash_attn_kernel(
     for start_n in range(0,T,BLOCK_N):
         offs_n=start_n+tl.arange(0,BLOCK_N)
         k=tl.load(K+offs_n[:,None]*D+offs_d[None,:],mask=offs_n[:,None]<T,other=0.0)
-        v=tl.load(Q+offs_n[:,None]*D+offs_d[None,:],mask=offs_n[:,None]<T,other=0.0)
+        v=tl.load(V+offs_n[:,None]*D+offs_d[None,:],mask=offs_n[:,None]<T,other=0.0)
         s=tl.dot(q,tl.trans(k))*scale
         s=tl.where(offs_n[None,:]<T,s,float('-inf'))
         if IS_CAUSAL:
