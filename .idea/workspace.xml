@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b7d269ef-e98a-4912-bafb-c71e5855a8e7" name="更改" comment="update">
       <change afterPath="$PROJECT_DIR$/深度学习/第七周/profiler/gpu_trace.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第八周/Triton/04_fused_attention_simplified/a100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第八周/Triton/04_fused_attention_simplified/rtx3080.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第八周/Triton/04_fused_attention_simplified/04_fused_attention_simplified.py" beforeDir="false" afterPath="$PROJECT_DIR$/深度学习/第八周/Triton/04_fused_attention_simplified/04_fused_attention_simplified.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,14 +168,6 @@
       <option name="presentableId" value="Default" />
       <updated>1777372610322</updated>
       <workItem from="1778387975245" duration="30000" />
-    </task>
-    <task id="LOCAL-00031" summary="update">
-      <option name="closed" value="true" />
-      <created>1780072375134</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1780072375134</updated>
     </task>
     <task id="LOCAL-00032" summary="update">
       <option name="closed" value="true" />
@@ -560,7 +553,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783847614019</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="update">
+      <option name="closed" value="true" />
+      <created>1783848374101</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1783848374102</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
