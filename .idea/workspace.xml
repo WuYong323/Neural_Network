@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b7d269ef-e98a-4912-bafb-c71e5855a8e7" name="更改" comment="update">
       <change afterPath="$PROJECT_DIR$/深度学习/第七周/profiler/gpu_trace.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深度学习/第八周/完整工业kernel(rmsnorm)/rmsnorm_triton.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/深度学习/第八周/完整kernel(rmsnorm)/rmsnorm_triton.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,14 +168,6 @@
       <option name="presentableId" value="Default" />
       <updated>1777372610322</updated>
       <workItem from="1778387975245" duration="30000" />
-    </task>
-    <task id="LOCAL-00034" summary="update">
-      <option name="closed" value="true" />
-      <created>1780328308451</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1780328308451</updated>
     </task>
     <task id="LOCAL-00035" summary="update">
       <option name="closed" value="true" />
@@ -559,7 +553,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783863981035</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="update">
+      <option name="closed" value="true" />
+      <created>1783943803170</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1783943803170</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
