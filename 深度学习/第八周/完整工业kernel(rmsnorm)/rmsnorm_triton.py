@@ -58,7 +58,7 @@ def triton_rmsnorm(x:torch.Tensor,weight:torch.Tensor,eps:float=1e-6):
 
     _rmsnorm_fwd_kernel[grid](
         x2d,weight,y,
-        x2d.stride(0),
+        x2d.stride(0),n_cols,eps,
         BLOCK_SIZE=BLOCK_SIZE,
         num_warps=4 if BLOCK_SIZE<=2048 else 8,
     )
