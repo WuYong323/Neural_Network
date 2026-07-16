@@ -50,26 +50,26 @@ def run_showdown(build_model_fn,x):
     results=[]
 
     # ① eager + torch RMSNorm（纯基准线）
-    m=swap_norm_backend(build_model_fn,"torch").cuda().to(torch.bfloat16).eval()
+    m=swap_norm_backend(build_model_fn(),"torch").cuda().to(torch.bfloat16).eval()
     results.append(bench_one("① eager (baseline)", m, x))
     del m
     torch.cuda.empty_cache()
 
     # ② torch.compile(max-autotune) + torch RMSNorm（最强对手）
-    m=swap_norm_backend(build_model_fn,"torch").cuda().to(torch.bfloat16).eval()
+    m=swap_norm_backend(build_model_fn(),"torch").cuda().to(torch.bfloat16).eval()
     m=torch.compile(m,mode="max-autotune")    #或许不加会快一点
     results.append(bench_one("② compile(max-autotune)",m,x))
     del m
     torch.cuda.empty_cache()
 
     # ③ eager + 手写 Triton kernel
-    m=swap_norm_backend(build_model_fn,"triton").cuda().to(torch.bfloat16).eval()
+    m=swap_norm_backend(build_model_fn(),"triton").cuda().to(torch.bfloat16).eval()
     results.append(bench_one("③ eager + 手写kernel", m, x))
     del m
     torch.cuda.empty_cache()
 
     # ④ compile + 手写 kernel（graph break 陷阱）
-    m=swap_norm_backend(build_model_fn,"triton").cuda().to(torch.bfloat16).eval()
+    m=swap_norm_backend(build_model_fn(),"triton").cuda().to(torch.bfloat16).eval()
     m=torch.compile(m,mode="max-autotune")
     results.append(bench_one("④ compile + 手写kernel", m, x))
     del m
@@ -87,12 +87,6 @@ def print_table(results):
 
 if __name__=="__main__":
     device="cuda"
-    model=GPT().to(device)
-
-    for block in model.transformer.h:
-        block.attn.c_proj._is_residual_proj = True
-        block.mlp.c_proj._is_residual_proj = True
-    model.apply(model._init_weights)
 
     x=torch.randint(0,vocab_size,(1,64),device=device)
 
