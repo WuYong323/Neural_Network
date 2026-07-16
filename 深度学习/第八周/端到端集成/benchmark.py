@@ -30,7 +30,7 @@ def measure_tokps(model,x,n_tokens=100,top_k=50):
 def bench_one(name,model,x,warmup=3,iters=10):
     """对一个配置做完整测量：预热 + 多次取中位数。"""
     for _ in range(warmup):
-        _=generate(model,x,max_new_tokens=8,top_k=50)
+        _=generate(model,x,max_new_tokens=100,top_k=50)
     torch.cuda.synchronize()
 
     ttfts,tokps=[],[]
