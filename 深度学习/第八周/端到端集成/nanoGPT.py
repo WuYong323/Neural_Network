@@ -2,6 +2,7 @@ import math
 import torch
 import torch.nn as nn
 from torch.nn import functional as F
+from integrate import RMSNorm
 
 
 torch.manual_seed(1337)
@@ -67,9 +68,9 @@ class MLP(nn.Module):
 class Block(nn.Module):
     def __init__(self):
         super().__init__()
-        self.ln_1=nn.LayerNorm(n_embd)
+        self.ln_1=RMSNorm(n_embd)
         self.attn=CausalSelfAttention()
-        self.ln_2=nn.LayerNorm(n_embd)
+        self.ln_2=RMSNorm(n_embd)
         self.mlp=MLP()
 
     def forward(self,x):
@@ -86,7 +87,7 @@ class GPT(nn.Module):
             wte=nn.Embedding(vocab_size,n_embd),  #token查表
             wpe=nn.Embedding(block_size,n_embd),  #位置查表
             h=nn.ModuleList([Block() for _ in range(n_layer)]),
-            ln_f=nn.LayerNorm(n_embd)
+            ln_f=RMSNorm(n_embd)
         ))
         self.lm_head=nn.Linear(n_embd,vocab_size,bias=False)
         self.transformer.wte.weight=self.lm_head.weight  #共用矩阵
