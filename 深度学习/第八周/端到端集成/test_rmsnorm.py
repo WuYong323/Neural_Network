@@ -1,3 +1,4 @@
+# test_rmsnorm.py —— 焊进大模型前，先在小数据上验正确性 + 测两种形状
 import torch
 from jupyterlab.semver import rtr
 
