@@ -65,24 +65,24 @@
 
 按时间推进，已完成的打勾。
 
-### 第一阶段：基础打底 ✅
+### 第一阶段：基础打底 
 - [x] 线性回归 / 逻辑回归手写实现（Andrew Ng Course 1）
 - [x] 反向传播完整推导（6 个核心公式，手写扫描件在 `第二周/手写图片（公式推导）/`）
 - [x] NumPy 从零实现全连接网络
 - [x] MNIST 分类（含数据增强、BatchNorm/Dropout）
 
-### 第二阶段：框架与卷积 ✅
+### 第二阶段：框架与卷积 
 - [x] PyTorch 入门，重写第一阶段的网络
 - [x] CNN 基础（朴素卷积 → im2col、感受野、FLOPs）
 - [x] LeNet / ResNet 复现，在 CIFAR-10 上训 ResNet18
 
-### 第三阶段：现代深度学习 ✅
+### 第三阶段：现代深度学习 
 - [x] RNN / LSTM / GRU（Andrew Ng Course 5）
 - [x] Attention 机制、多头注意力、fused QKV
 - [x] Transformer 从零实现（nanoGPT）+ KV Cache
 - [x] 端到端小项目：手写字符级 GPT
 
-### 第四阶段：AI Infra 主线 🚧（进行中）
+### 第四阶段：AI Infra 主线
 - [x] Roofline 模型、三级 profiler 工具链、算子融合动机
 - [x] torch.compile 图优化、数值精度与量化地基
 - [x] Triton 手写融合 kernel + FlashAttention 思想（online softmax）
