@@ -4,14 +4,35 @@ __pycache__/
 *.egg-info/
 .ipynb_checkpoints/
 
+# 虚拟环境
+.venv/
+venv/
+
 # PyCharm / IDE 个人状态
 .idea/workspace.xml
 .idea/shelf/
 
-# 数据集与训练产物（体积大，不入库）
+# ── 数据集（体积大、可重新下载，不入库）────────────────
+data/
+datasets/
 MNIST数据集/
+cifar-10-batches-py/
+*-ubyte
+*-ubyte.gz
+*.tar.gz
+*.h5
+
+# ── 训练产物（模型权重 / checkpoint，不入库）──────────
 checkpoints/
-logs/
-cifar-10-python.tar.gz
+*.pth
+*.pt
 *.npz
+
+# ── 实验日志与 profiler 追踪（可重新生成，不入库）──────
+logs/
 *.csv
+*trace.json
+gpu_trace.txt
+
+# ── 大文本语料（可自行下载，不入库）───────────────────
+斗破苍穹.txt

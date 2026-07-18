@@ -5,7 +5,11 @@
       "WebFetch(domain:raw.githubusercontent.com)",
       "Bash(git fetch *)",
       "Bash(git push *)",
-      "Bash(pip show *)"
+      "Bash(pip show *)",
+      "Bash(xargs -0 du -h)",
+      "Bash(git check-ignore *)",
+      "Read(//tmp/**)",
+      "Bash(xargs -0 du -ch)"
     ]
   }
 }
