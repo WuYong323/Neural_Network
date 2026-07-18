@@ -4,44 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7d269ef-e98a-4912-bafb-c71e5855a8e7" name="更改" comment="update">
-      <change afterPath="$PROJECT_DIR$/深度学习/第八周/端到端集成/benchmark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.claude/settings.local.json" beforeDir="false" afterPath="$PROJECT_DIR$/.claude/settings.local.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第一周/MNIST学习/data/MNIST/raw/t10k-images-idx3-ubyte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第一周/MNIST学习/data/MNIST/raw/t10k-images-idx3-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第一周/MNIST学习/data/MNIST/raw/t10k-labels-idx1-ubyte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第一周/MNIST学习/data/MNIST/raw/t10k-labels-idx1-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第一周/MNIST学习/data/MNIST/raw/train-images-idx3-ubyte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第一周/MNIST学习/data/MNIST/raw/train-images-idx3-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第一周/MNIST学习/data/MNIST/raw/train-labels-idx1-ubyte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第一周/MNIST学习/data/MNIST/raw/train-labels-idx1-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第一周/MNIST学习/mnist_cnn.pth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第一周/data/MNIST/raw/t10k-images-idx3-ubyte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第一周/data/MNIST/raw/t10k-images-idx3-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第一周/data/MNIST/raw/t10k-labels-idx1-ubyte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第一周/data/MNIST/raw/t10k-labels-idx1-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第一周/data/MNIST/raw/train-images-idx3-ubyte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第一周/data/MNIST/raw/train-images-idx3-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第一周/data/MNIST/raw/train-labels-idx1-ubyte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第一周/data/MNIST/raw/train-labels-idx1-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第一周/logs/train_log.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第七周/profiler/trace.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/CIFAR-10/resnet18_cifar.pth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/LeNet/data/MNIST/raw/t10k-images-idx3-ubyte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/LeNet/data/MNIST/raw/t10k-images-idx3-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/LeNet/data/MNIST/raw/t10k-labels-idx1-ubyte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/LeNet/data/MNIST/raw/t10k-labels-idx1-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/LeNet/data/MNIST/raw/train-images-idx3-ubyte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/LeNet/data/MNIST/raw/train-images-idx3-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/LeNet/data/MNIST/raw/train-labels-idx1-ubyte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/LeNet/data/MNIST/raw/train-labels-idx1-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/现代CNN/best_signs.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/现代CNN/datasets/test_signs.h5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/第五周/吴恩达Course 4 (CNN)/现代CNN/datasets/train_signs.h5" beforeDir="false" />
-    </list>
+    <list default="true" id="b7d269ef-e98a-4912-bafb-c71e5855a8e7" name="更改" comment="update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -200,30 +163,6 @@
       <option name="presentableId" value="Default" />
       <updated>1777372610322</updated>
       <workItem from="1778387975245" duration="30000" />
-    </task>
-    <task id="LOCAL-00041" summary="update">
-      <option name="closed" value="true" />
-      <created>1780812957278</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1780812957278</updated>
-    </task>
-    <task id="LOCAL-00042" summary="update">
-      <option name="closed" value="true" />
-      <created>1780813016907</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1780813016907</updated>
-    </task>
-    <task id="LOCAL-00043" summary="update">
-      <option name="closed" value="true" />
-      <created>1781099726444</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1781099726444</updated>
     </task>
     <task id="LOCAL-00044" summary="update">
       <option name="closed" value="true" />
@@ -593,7 +532,31 @@
       <option name="project" value="LOCAL" />
       <updated>1784201923282</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="update">
+      <option name="closed" value="true" />
+      <created>1784347475741</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1784347475741</updated>
+    </task>
+    <task id="LOCAL-00091" summary="update">
+      <option name="closed" value="true" />
+      <created>1784347489817</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1784347489817</updated>
+    </task>
+    <task id="LOCAL-00092" summary="update">
+      <option name="closed" value="true" />
+      <created>1784347596786</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1784347596786</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
